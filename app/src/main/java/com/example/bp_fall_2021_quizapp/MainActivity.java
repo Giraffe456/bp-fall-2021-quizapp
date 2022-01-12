@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     // Put class variables up here
     // Best practice is to make them private (can only be accessed within the class, or using getters/setters)
     // Each UI component that you want to reference needs a variable
-
+    private AppCompatibleEditText nameInput;
     /**
      * Method used to start an activity. It's the first method to run when the
      * activity begins
@@ -23,8 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AppCompatEditText nameinput;
-        findViewById(R.id. )
-        // obtain user's name using findViewById
+        findViewById(R.id.textView5);
+
+
 
     }
 
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void startQuiz(View view){
         // set name variable every time user clicks "start"
+        String name_input;
+        name_input=(toString(getText());
 
         // If the name field is empty, prompt user to enter name
 
